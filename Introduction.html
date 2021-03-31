@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Personal Website</title>
+
+		<style>
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  /*The overflow property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.*/
+			  overflow: hidden;
+			  background-color: #333;
+			}
+
+			/* unordered list items */
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  /*14px up and down, 16 px left and right*/
+			  padding: 14px 16px;
+			  /*default style includes an ugly underline unless you have text-decoration: none*/
+			  text-decoration: none;
+			}
+
+			/* when you hover with your mouse over the item */
+			li a:hover {
+			  background-color: green;
+			}
+
+			li a.active {
+				background-color: green;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<!-- ul is unordered list -->
+		<ul>
+		  <!-- li is list item -->
+		  <!-- active indicates the active page or link, the page or link you are in -->
+		  <li><a class="active" href="example_09.html">Introduction</a></li>
+		  <!-- This is how you link with another page -->
+		  <li><a href="example_09_background.html">Background</a></li>
+		  <li><a href="#whycs">Why CS</a></li>
+		  <li><a href="#whywebapplication">Why Web Application</a></li>
+		</ul>
+
+		<div>
+			<h2>Introduction</h2>
+			<p>My name is ...</p>
+		</div>
+
+	</body>
+</html>

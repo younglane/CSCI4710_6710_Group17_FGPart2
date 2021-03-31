@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Personal Website</title>
+
+		<style>
+			ul {
+			  list-style-type: none;
+			  margin: 0;
+			  padding: 0;
+			  overflow: hidden;
+			  background-color: #333;
+			}
+
+			li {
+			  float: left;
+			}
+
+			li a {
+			  display: block;
+			  color: white;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			}
+
+			li a:hover {
+			  background-color: green;
+			}
+
+			li a.active {
+				background-color: green;
+			}
+
+		
+		</style>
+	</head>
+
+	<body>
+
+		<ul>
+			<!-- active indicates the active page or link, the page or link you are in -->
+		  <li><a href="example_09.html">Introduction</a></li>
+		  <!-- different from example 09 -->
+		  <li><a class="active" href="example_09_background.html">Background</a></li>
+		  <li><a href="#whycs">Why CS</a></li>
+		  <li><a href="#whywebapplication">Why Web Application</a></li>
+		</ul>
+
+		<div>
+			<h2>Background</h2>
+			<p>Here is my background...</p>
+		</div>
+
+	</body>
+</html>
