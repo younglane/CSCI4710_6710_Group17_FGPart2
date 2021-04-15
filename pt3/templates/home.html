@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Sunset Cedar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <style>
+            body {background-color: skyblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+    </style>
+    
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     
+      <a class="navbar-brand" href="index.html" >Sunset Cedar</a>
+      
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="{{url_for('home')}}">Home</a></li>
+      <li><a href="{{url_for('about')}}">About the band</a></li>
+      <li><a href="{{url_for('shows')}}">Upcoming shows</a></li>
+    </ul>
+     
+  <img src="static/img/brand.png"
+           height = '50'
+           width = '50'
+           align = 'right'>
+  </div>
+
+</nav>
